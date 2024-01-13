@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2.2px;
+}
+
+.moderasi-container {
+    padding-top: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 8vw;
+}
+
+
+.judul-tabel {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-family: 'myFont', serif;
+    border-bottom: 1px white solid;
+}
+
+.sub-judul-tabel {
+    margin: 3.5vw 0 1vw 0;
+}
+
+th {
+    text-align: center;
+    padding: auto;
+    vertical-align: middle;
+}
+
+
+table, tr, tr td{   
+    background-color: #2e2922!important;
+    border-color: #574d40;
+    color: #fff!important;
+}  
+
+tr th {
+    background-color: #1f1b17!important;
+    color: #fff!important;
+}
+
+.btn-ijo:hover {
+    background-color: #198754;
+    transform: scale(1.0);
+}

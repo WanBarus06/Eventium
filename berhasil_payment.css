@@ -1,0 +1,23 @@
+body {
+    background-color: #1A1716;
+}
+
+.judul {
+    color: #F7F7E9;;
+}
+
+.subjudul {
+    color: #F7F7E9;;   
+}
+
+.kontainer-judul {
+    margin: auto;
+    padding: 8vw 6vw;
+    text-align: center;
+}
+
+p a {
+    color: #a56214;
+}
+
+

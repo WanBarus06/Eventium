@@ -1,0 +1,91 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4vw 6vw;
+}
+
+.container .navbar-brand {
+    width: 50%;
+    padding-bottom: 50px;
+
+
+}
+
+.container .navbar-brand h3{
+    font-size: 3rem ;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+    text-align: center;
+    margin: auto;
+    font-style: 'myFont', serif;
+}
+
+.container .navbar-brand h3 {
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    font-family: 'myFont', serif;
+    
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .box {
+      flex-direction: column;
+      align-items: center;
+    }
+    .container .box .dream {
+        width: 100%!important;
+    }
+  }
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.container .box .dream.img-16-9::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* (9 / 16) * 100 */
+}
+
+/* Rasio aspek 9:16 */
+.container .box .dream.img-9-16::before {
+    content: "";
+    display: block;
+    padding-top: 177.77%; /* (16 / 9) * 100 */
+}
+
+footer {
+    background-color: #2e2922;
+}

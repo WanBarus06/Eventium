@@ -1,0 +1,19 @@
+.offer-card {
+    padding-bottom: 9px;
+    margin-bottom: -9px;
+}
+
+.col {
+    overflow: hidden;
+}
+
+.suboffers-container {
+    padding-top: 4vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 4vw;
+}
+
+#footerpricing {
+    background-color: #2e2922;
+}

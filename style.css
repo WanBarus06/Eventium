@@ -1,0 +1,520 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #F7F7E9;
+    background-color: #1A1716;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+a {
+    text-decoration: none;
+    color: #F7F7E9;
+}
+ 
+@font-face {
+    font-family: myfont;
+    src: url(against\ regular.ttf);
+}
+
+.container-fluid {
+    padding-left: 2px!important;
+}
+
+.navbar-toggler:focus{
+    color: #3a3331;
+}
+
+.navbar-toggler:active{
+    color: #3a3331;
+}
+
+
+.newnav {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    background-color: #1a1716;
+    border-bottom: #f7f7e918 1px solid;
+}
+
+.navbar-brand {
+    font-family: 'myfont', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #F7F7E9;
+    letter-spacing: 5px;
+    margin-right: 0;
+}
+
+.newbtn {
+    letter-spacing: 2px;
+    font-size: 18px;
+    background-color: #a02f0a;
+    border: 0px;
+    color: #F7F7E9;
+    border-radius: calc(0.375rem - 1px);
+    transition: transform .2s;
+}
+
+@media screen and (max-width: 991px) {
+    #btn-register {
+        margin-top: 10px;
+    }
+    #navbarSupportedContent {
+        margin-bottom: 1.5vw;
+        margin-top: 1vw;
+    }
+}
+
+#btnsee {
+    color: #ffffffd8;
+    background-color: #1a17166b;
+    border: 1px solid #bb3d1336;
+}
+
+#btnsee:hover {
+    border: 1px solid #a555149a;
+}
+
+
+.btn:active,
+.btn:focus{  
+  background-color: #a55514;;
+  color: #fff8e1;
+}
+.btn:hover{  
+  background-color: #a55514;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+
+.nlist {
+    letter-spacing: 2px;
+    color: #F7F7E9;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.nlist:hover {
+    color: #dfb2a3; 
+}
+
+
+.gbr-container {
+    position : relative;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.gbr {
+    /*
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    
+    background-position: center;  Center the image 
+    background-repeat: no-repeat; /* Do not repeat the image 
+    background-size: cover;
+    background-image: url("depan.jpg");
+    padding-right: 5vw;
+    padding-left: 5vw;
+    opacity: 0.5;
+
+
+    .px-3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    align-items: flex-end;
+}
+    */
+
+}
+
+.logo {
+    width: 43px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.gambar-cover {
+    width: 100%;
+    object-fit: cover;
+    height: 90vh;
+    opacity: 0.3;
+}
+
+.px-3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    align-items: flex-end;
+}
+
+.bawaheventium {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #d6d6cbc5;
+}
+
+.teksjudul-container {
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.judul {
+    font-family: 'myfont', serif;
+    font-size: 10vw;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 10px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .judul {
+        font-size: 10vw;
+        margin-bottom: 30px;
+    }
+
+    .gambar-cover {
+        height: 92vh;
+        width: 100%;
+    }
+    .px-3 {
+        top: 50%;
+ 
+    }
+    .subjudul, .juduloffers, .judulservice, .judulchoose, .quote{
+        font-size: 8vw!important;
+    }
+
+    .kontenabout-container {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .aboutgambar-container {
+        margin-bottom: 5vw;
+    }
+    
+}
+
+@media screen and (min-width:767px) and (max-width: 1300px){
+    .judulchoose {
+        margin-bottom: 0!important;
+    }
+    .choose-card {
+        margin-top: 3.5vw;
+        flex: 0 0 40%;
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .choose-card {
+        margin-top: 3rem;
+    }
+}
+
+
+
+.subjudul {
+    font-family: 'myfont', serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    letter-spacing: 7px;
+    width: fit-content;
+    margin-bottom: 3.5vw;
+}
+
+
+
+
+.sub-container {
+    padding-top: 8vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+    
+}
+
+#mainoffers .col1 { 
+    margin-left: 0px!important;
+}
+
+.subabout-container {
+    padding-top: 0!important;
+}
+
+span {
+    color: #F7F7E9;
+}
+
+.kontenabout {
+    overflow-wrap: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.kontenabout-container {
+    display: flex;
+}
+
+.aboutgambar-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 5vw;
+    
+    overflow-wrap: normal;
+}
+
+.gambarabout {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-wrap: normal;
+    border-radius: 0.375rem;
+}
+
+.footer-container {
+    width: 100%;
+    height: 70vh;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #2e2922;
+}
+
+
+.kontencard {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F7F7E9;
+}
+
+.card-container {
+    position : relative;
+    height:  32vw;
+    
+}
+
+.newcardimg {
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.4;
+    
+}
+
+
+.card-container-in {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2922;
+}
+
+.newcard-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 24px;
+    border-top: 1px solid #c29503;
+    border-bottom: 1px solid #c29503;
+    padding: 5px;
+}
+
+.juduloffers, .judulservice, .judulchoose, .quote{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'myfont', serif;
+}
+
+
+@media screen and (max-width: 500px) {
+    .judulservice {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+}
+
+.offer-card {
+    background-color: #50473b;
+    color: #F7F7E9;
+}
+
+.bawahoffer {
+    font-family: 'Playfair Display'; 
+    margin-bottom: 0!important; 
+    color: #d8b98ab9;
+}
+
+.pricing-card-title {
+    font-family: 'myfont', serif;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+
+.card-header {
+    font-family: 'Poppins', serif;
+    letter-spacing: 2px;
+}
+
+.newbtn-offer {
+    background-color: #a02f0a!important;
+    color: #ffffffd8;
+    border: 2px solid #a02f0a;
+  }
+
+.newbtn-offer:active,
+.newbtn-offer:focus{  
+    background-color: #50473b!important;
+    border-top: #c29503 solid 2px !important;
+    border-bottom: #c29503 solid 2px !important;
+    border-right: #c29503 solid 2px !important;
+    border-left: #c29503 solid 2px !important;
+    
+}
+.newbtn-offer:hover{
+    background-color: #a55514!important;
+    border-color: transparent;
+    transform: none!important;
+}
+
+.choose-card-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #a02f0a;
+}
+
+.choose-card-text {
+    font-size: 20px;
+}
+
+.choose-card-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.choose-card {
+    margin-right: 16px;
+    margin-left: 16px;
+    background-color: #f0e8c9;
+    transition: transform .2s;
+    
+}
+.choose-card:hover {
+    transform: scale(1.05);
+  }
+
+
+.quote {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    font-style: italic;
+    margin: 100px;
+}
+
+.sub-container-choose {
+    background-color: #2e2922;
+}
+
+.seemoreoffers {
+    font-style: italic;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.seemoreoffers:hover {
+    padding-right: 8px;
+}
+
+.seemoreoffers:hover a:after {
+    content: '\00bb';
+}
+
+
+/* .seemoreoffers {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #F7F7E9;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: all 0.8s;
+} */
+
+.seemoreservice {
+    transition: all 0.5s;
+}
+.seemoreservice:hover {
+    padding-right: 10px;
+}
+
+.seemoreservice:hover a:after {
+    content: '\00bb';
+}
+
+/*PRICING*/
+.subjudulpricing {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'myfont', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #F7F7E9;
+    letter-spacing: 5px;
+    margin-bottom: 3.5vw;
+    
+}
+
+
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.golden {
+    color: #ffc400;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
